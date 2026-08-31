@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.env
+
+# Выгрузки из 1С не коммитим — это данные заказчика
+export*.json
+dump*.json
+
+.pytest_cache/
+.ruff_cache/
+
+.idea/
+.vscode/
